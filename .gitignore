@@ -4,3 +4,7 @@
 /.vscode/
 .DS_Store
 Thumbs.db
+# PHPUnit
+.phpunit.result.cache
+phpunit.xml.local
+phpunit.xml.local.*
