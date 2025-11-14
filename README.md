@@ -9,13 +9,13 @@ A comprehensive Laravel package for integrating multiple payment gateways with u
 
 ## Supported Payment Gateways
 
-| Gateway | Status | Region | Features |
-|---------|--------|--------|----------|
-| **SenangPay** | ✅ Ready | Malaysia | FPX, Credit Card, e-Wallet |
-| **iPay88** | 🚧 Coming Soon |  |  |
-| **PayPal** | 🚧 Coming Soon |  |  |
-| **Billplz** | 🚧 Coming Soon |  |  |
-| **Midtrans** | 🚧 Coming Soon |  |  |
+| Gateway | Status | Region |
+|---------|--------|--------|
+| **SenangPay** | ✅ Ready | Malaysia |
+| **iPay88** | 🚧 Coming Soon |  |
+| **PayPal** | 🚧 Coming Soon |  |
+| **Billplz** | 🚧 Coming Soon |  |
+| **Midtrans** | 🚧 Coming Soon |  |
 
 ## Features
 
