@@ -1,8 +1,8 @@
 <?php
 
-namespace Aldi\PaymentGateways;
+namespace Aldiazhar\PaymentGateways;
 
-use Aldi\PaymentGateways\SenangPay\SenangPayService;
+use Aldiazhar\PaymentGateways\SenangPay\SenangPayService;
 use Illuminate\Support\ServiceProvider;
 
 class PaymentGatewaysServiceProvider extends ServiceProvider
@@ -29,22 +29,22 @@ class PaymentGatewaysServiceProvider extends ServiceProvider
         
         // iPay88
         // $this->app->singleton('payment.ipay88', function ($app) {
-        //     return new \Aldi\PaymentGateways\IPay88\IPay88Service();
+        //     return new \Aldiazhar\PaymentGateways\IPay88\IPay88Service();
         // });
         
         // PayPal
         // $this->app->singleton('payment.paypal', function ($app) {
-        //     return new \Aldi\PaymentGateways\PayPal\PayPalService();
+        //     return new \Aldiazhar\PaymentGateways\PayPal\PayPalService();
         // });
         
         // Billplz
         // $this->app->singleton('payment.billplz', function ($app) {
-        //     return new \Aldi\PaymentGateways\Billplz\BillplzService();
+        //     return new \Aldiazhar\PaymentGateways\Billplz\BillplzService();
         // });
         
         // Midtrans
         // $this->app->singleton('payment.midtrans', function ($app) {
-        //     return new \Aldi\PaymentGateways\Midtrans\MidtransService();
+        //     return new \Aldiazhar\PaymentGateways\Midtrans\MidtransService();
         // });
     }
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Aldi\PaymentGateways\Tests\Unit;
+namespace Aldiazhar\PaymentGateways\Tests\Unit;
 
-use Aldi\PaymentGateways\Exceptions\InvalidHashException;
-use Aldi\PaymentGateways\Exceptions\PaymentFailedException;
-use Aldi\PaymentGateways\Tests\TestCase;
+use Aldiazhar\PaymentGateways\Exceptions\InvalidHashException;
+use Aldiazhar\PaymentGateways\Exceptions\PaymentFailedException;
+use Aldiazhar\PaymentGateways\Tests\TestCase;
 
 class ExceptionsTest extends TestCase
 {

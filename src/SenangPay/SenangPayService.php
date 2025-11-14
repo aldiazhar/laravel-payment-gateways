@@ -1,10 +1,10 @@
 <?php
 
-namespace Aldi\PaymentGateways\SenangPay;
+namespace Aldiazhar\PaymentGateways\SenangPay;
 
-use Aldi\PaymentGateways\Contracts\PaymentGatewayInterface;
-use Aldi\PaymentGateways\Exceptions\InvalidHashException;
-use Aldi\PaymentGateways\Exceptions\PaymentFailedException;
+use Aldiazhar\PaymentGateways\Contracts\PaymentGatewayInterface;
+use Aldiazhar\PaymentGateways\Exceptions\InvalidHashException;
+use Aldiazhar\PaymentGateways\Exceptions\PaymentFailedException;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 

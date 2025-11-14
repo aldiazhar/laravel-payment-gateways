@@ -1,8 +1,8 @@
 <?php
 
-namespace Aldi\PaymentGateways\Tests;
+namespace Aldiazhar\PaymentGateways\Tests;
 
-use Aldi\PaymentGateways\PaymentGatewaysServiceProvider;
+use Aldiazhar\PaymentGateways\PaymentGatewaysServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra
@@ -39,7 +39,7 @@ abstract class TestCase extends Orchestra
     protected function getPackageAliases($app): array
     {
         return [
-            'SenangPay' => \Aldi\PaymentGateways\Facades\SenangPay::class,
+            'SenangPay' => \Aldiazhar\PaymentGateways\Facades\SenangPay::class,
         ];
     }
 

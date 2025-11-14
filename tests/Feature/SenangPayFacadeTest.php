@@ -1,11 +1,11 @@
 <?php
 
-namespace Aldi\PaymentGateways\Tests\Feature;
+namespace Aldiazhar\PaymentGateways\Tests\Feature;
 
-use Aldi\PaymentGateways\Exceptions\InvalidHashException;
-use Aldi\PaymentGateways\Exceptions\PaymentFailedException;
-use Aldi\PaymentGateways\Facades\SenangPay;
-use Aldi\PaymentGateways\Tests\TestCase;
+use Aldiazhar\PaymentGateways\Exceptions\InvalidHashException;
+use Aldiazhar\PaymentGateways\Exceptions\PaymentFailedException;
+use Aldiazhar\PaymentGateways\Facades\SenangPay;
+use Aldiazhar\PaymentGateways\Tests\TestCase;
 
 class SenangPayFacadeTest extends TestCase
 {

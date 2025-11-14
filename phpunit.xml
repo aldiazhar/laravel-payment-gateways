@@ -17,15 +17,15 @@
         </testsuite>
     </testsuites>
     <php>
-        <env name="APP_KEY" value="base64:2fl3UtentJlFPl8AzxdJyTzG4bqnmHrL9pwB2LShJ3o="/>
+        <env name="APP_KEY" value=""/>
         <env name="APP_ENV" value="testing"/>
         <env name="CACHE_DRIVER" value="array"/>
         <env name="SESSION_DRIVER" value="array"/>
         <env name="QUEUE_DRIVER" value="sync"/>
         
-        <env name="SENANGPAY_MERCHANT_ID" value="556166545643123"/>
-        <env name="SENANGPAY_SECRET_KEY" value="5014-815"/>
-        <env name="SENANGPAY_SANDBOX" value="true"/>
+        <env name="SENANGPAY_MERCHANT_ID" value=""/>
+        <env name="SENANGPAY_SECRET_KEY" value=""/>
+        <env name="SENANGPAY_SANDBOX" value=""/>
     </php>
     <source>
         <include>

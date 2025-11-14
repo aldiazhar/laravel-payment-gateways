@@ -1,10 +1,10 @@
 <?php
 
-namespace Aldi\PaymentGateways\Tests\Unit;
+namespace Aldiazhar\PaymentGateways\Tests\Unit;
 
-use Aldi\PaymentGateways\Contracts\PaymentGatewayInterface;
-use Aldi\PaymentGateways\SenangPay\SenangPayService;
-use Aldi\PaymentGateways\Tests\TestCase;
+use Aldiazhar\PaymentGateways\Contracts\PaymentGatewayInterface;
+use Aldiazhar\PaymentGateways\SenangPay\SenangPayService;
+use Aldiazhar\PaymentGateways\Tests\TestCase;
 
 class PaymentGatewayInterfaceTest extends TestCase
 {

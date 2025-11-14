@@ -1,13 +1,13 @@
 <?php
 
-namespace Aldi\PaymentGateways\Facades;
+namespace Aldiazhar\PaymentGateways\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * SenangPay Payment Gateway Facade
  *
- * @method static \Aldi\PaymentGateways\SenangPay\SenangPayService account(?string $account = null)
+ * @method static \Aldiazhar\PaymentGateways\SenangPay\SenangPayService account(?string $account = null)
  * @method static array inputs(array $payload)
  * @method static string url()
  * @method static array check(string $orderId)
@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static string getCurrentAccount()
  * @method static string getName()
  *
- * @see \Aldi\PaymentGateways\SenangPay\SenangPayService
+ * @see \Aldiazhar\PaymentGateways\SenangPay\SenangPayService
  */
 class SenangPay extends Facade
 {

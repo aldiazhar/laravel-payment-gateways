@@ -2,11 +2,6 @@
 
 A comprehensive Laravel package for integrating multiple payment gateways with unified API and multi-account support.
 
-[![Latest Version](https://img.shields.io/packagist/v/aldi/laravel-payment-gateways.svg?style=flat-square)](https://packagist.org/packages/aldi/laravel-payment-gateways)
-[![PHP Version](https://img.shields.io/packagist/php-v/aldi/laravel-payment-gateways.svg?style=flat-square)](https://packagist.org/packages/aldi/laravel-payment-gateways)
-[![Laravel Version](https://img.shields.io/badge/Laravel-10.x%20%7C%2011.x-red.svg?style=flat-square)](https://laravel.com)
-[![License](https://img.shields.io/packagist/l/aldi/laravel-payment-gateways.svg?style=flat-square)](LICENSE)
-
 ## Supported Payment Gateways
 
 | Gateway | Status | Region |
@@ -31,7 +26,7 @@ A comprehensive Laravel package for integrating multiple payment gateways with u
 ## Requirements
 
 - PHP 8.1 or higher
-- Laravel 10.x or 11.x
+- Laravel 10.x or higher
 
 ## Installation
 
@@ -66,7 +61,7 @@ SENANGPAY_SECONDARY_SANDBOX=true
 ### 1. Basic Payment Flow
 
 ```php
-use Aldi\PaymentGateways\Facades\SenangPay;
+use Aldiazhar\PaymentGateways\Facades\SenangPay;
 
 // Prepare payment data
 $payload = [
@@ -107,9 +102,9 @@ return view('payment.form', compact('inputs', 'paymentUrl'));
 ### 3. Handle Payment Return/Callback
 
 ```php
-use Aldi\PaymentGateways\Facades\SenangPay;
-use Aldi\PaymentGateways\Exceptions\InvalidHashException;
-use Aldi\PaymentGateways\Exceptions\PaymentFailedException;
+use Aldiazhar\PaymentGateways\Facades\SenangPay;
+use Aldiazhar\PaymentGateways\Exceptions\InvalidHashException;
+use Aldiazhar\PaymentGateways\Exceptions\PaymentFailedException;
 
 public function return(Request $request)
 {
@@ -222,9 +217,9 @@ Complete controller implementation:
 
 namespace App\Http\Controllers\Payment;
 
-use Aldi\PaymentGateways\Exceptions\InvalidHashException;
-use Aldi\PaymentGateways\Exceptions\PaymentFailedException;
-use Aldi\PaymentGateways\Facades\SenangPay;
+use Aldiazhar\PaymentGateways\Exceptions\InvalidHashException;
+use Aldiazhar\PaymentGateways\Exceptions\PaymentFailedException;
+use Aldiazhar\PaymentGateways\Facades\SenangPay;
 use App\Http\Controllers\Controller;
 use App\Models\Invoice;
 use Illuminate\Http\Request;
@@ -422,10 +417,10 @@ interface PaymentGatewayInterface
 
 ```php
 // Thrown when payment signature/hash is invalid
-Aldi\PaymentGateways\Exceptions\InvalidHashException
+Aldiazhar\PaymentGateways\Exceptions\InvalidHashException
 
 // Thrown when payment status is not successful
-Aldi\PaymentGateways\Exceptions\PaymentFailedException
+Aldiazhar\PaymentGateways\Exceptions\PaymentFailedException
 ```
 
 ## Testing

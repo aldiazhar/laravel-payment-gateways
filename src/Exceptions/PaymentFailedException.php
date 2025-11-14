@@ -1,6 +1,6 @@
 <?php
 
-namespace Aldi\PaymentGateways\Exceptions;
+namespace Aldiazhar\PaymentGateways\Exceptions;
 
 /**
  * Exception thrown when payment is not successful

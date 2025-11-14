@@ -1,9 +1,9 @@
 <?php
 
-namespace Aldi\PaymentGateways\Tests\Feature;
+namespace Aldiazhar\PaymentGateways\Tests\Feature;
 
-use Aldi\PaymentGateways\Facades\SenangPay;
-use Aldi\PaymentGateways\Tests\TestCase;
+use Aldiazhar\PaymentGateways\Facades\SenangPay;
+use Aldiazhar\PaymentGateways\Tests\TestCase;
 use Illuminate\Support\Facades\Http;
 
 class SenangPayHttpIntegrationTest extends TestCase
@@ -139,7 +139,7 @@ class SenangPayHttpIntegrationTest extends TestCase
         ]);
 
         // Create new service instance with updated config
-        $service = new \Aldi\PaymentGateways\SenangPay\SenangPayService();
+        $service = new \Aldiazhar\PaymentGateways\SenangPay\SenangPayService();
         $service->check('INV-PROD-TEST');
 
         // Assert production URL was used

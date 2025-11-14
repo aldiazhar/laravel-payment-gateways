@@ -1,5 +1,5 @@
 {
-    "name": "aldi/laravel-payment-gateways",
+    "name": "aldiazhar/laravel-payment-gateways",
     "description": "Laravel package for multiple payment gateway integration (SenangPay, iPay88, PayPal, Billplz, Midtrans)",
     "type": "library",
     "keywords": [
@@ -33,21 +33,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Aldi\\PaymentGateways\\": "src/"
+            "Aldiazhar\\PaymentGateways\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Aldi\\PaymentGateways\\Tests\\": "tests/"
+            "Aldiazhar\\PaymentGateways\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Aldi\\PaymentGateways\\PaymentGatewaysServiceProvider"
+                "Aldiazhar\\PaymentGateways\\PaymentGatewaysServiceProvider"
             ],
             "aliases": {
-                "SenangPay": "Aldi\\PaymentGateways\\Facades\\SenangPay"
+                "SenangPay": "Aldiazhar\\PaymentGateways\\Facades\\SenangPay"
             }
         }
     },

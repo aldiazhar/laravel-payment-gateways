@@ -1,6 +1,6 @@
 <?php
 
-namespace Aldi\PaymentGateways\Contracts;
+namespace Aldiazhar\PaymentGateways\Contracts;
 
 interface PaymentGatewayInterface
 {
@@ -39,7 +39,7 @@ interface PaymentGatewayInterface
      * Verify payment signature and throw exception if invalid
      *
      * @param array $data
-     * @throws \Aldi\PaymentGateways\Exceptions\InvalidHashException
+     * @throws \Aldiazhar\PaymentGateways\Exceptions\InvalidHashException
      * @return void
      */
     public function verifyOrFail(array $data): void;
@@ -48,7 +48,7 @@ interface PaymentGatewayInterface
      * Ensure payment is successful and throw exception if not
      *
      * @param array $data
-     * @throws \Aldi\PaymentGateways\Exceptions\PaymentFailedException
+     * @throws \Aldiazhar\PaymentGateways\Exceptions\PaymentFailedException
      * @return void
      */
     public function ensureSuccess(array $data): void;
@@ -57,8 +57,8 @@ interface PaymentGatewayInterface
      * Verify signature and ensure payment success in one call
      *
      * @param array $data
-     * @throws \Aldi\PaymentGateways\Exceptions\InvalidHashException
-     * @throws \Aldi\PaymentGateways\Exceptions\PaymentFailedException
+     * @throws \Aldiazhar\PaymentGateways\Exceptions\InvalidHashException
+     * @throws \Aldiazhar\PaymentGateways\Exceptions\PaymentFailedException
      * @return void
      */
     public function validatePayment(array $data): void;
