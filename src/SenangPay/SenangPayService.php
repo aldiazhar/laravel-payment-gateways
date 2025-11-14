@@ -141,6 +141,9 @@ class SenangPayService implements PaymentGatewayInterface
 
     /**
      * Generate hash for transaction query
+     * 
+     * According to SenangPay API documentation:
+     * Hash = MD5(merchant_id + secret_key + order_id)
      *
      * @param string $orderId
      * @return string
@@ -150,7 +153,7 @@ class SenangPayService implements PaymentGatewayInterface
         $merchantId = $this->config['merchant_id'];
         $secret = $this->config['secret'];
 
-        return hash_hmac('sha256', $merchantId . $secret . $orderId, $secret);
+        return md5($merchantId . $secret . $orderId);
     }
 
     /**
