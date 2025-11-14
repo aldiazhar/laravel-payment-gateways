@@ -452,7 +452,7 @@ Contributions are welcome! To add a new payment gateway:
 
 ## Security
 
-If you discover any security issues, please email security@example.com instead of using the issue tracker.
+If you discover any security issues, please email permana.azhar.aldi@gmail.com instead of using the issue tracker.
 
 ## License
 
@@ -465,7 +465,7 @@ This package is open-source software licensed under the [MIT license](LICENSE).
 
 ## Support
 
-- 📧 Email: support@example.com
+- 📧 Email: permana.azhar.aldi@gmail.com
 - 🐛 Issues: [GitHub Issues](https://github.com/aldi/laravel-payment-gateways/issues)
 - 📖 Documentation: [GitHub Wiki](https://github.com/aldi/laravel-payment-gateways/wiki)
 
