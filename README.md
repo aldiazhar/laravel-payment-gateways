@@ -33,7 +33,7 @@ A comprehensive Laravel package for integrating multiple payment gateways with u
 Install the package via Composer:
 
 ```bash
-composer require aldi/laravel-payment-gateways
+composer require aldiazhar/laravel-payment-gateways
 ```
 
 Publish the configuration file:
