@@ -6,22 +6,22 @@ A comprehensive Laravel package for integrating multiple payment gateways with u
 
 | Gateway | Status | Region |
 |---------|--------|--------|
-| **SenangPay** | ✅ Ready | Malaysia |
-| **iPay88** | 🚧 Coming Soon |  |
-| **PayPal** | 🚧 Coming Soon |  |
-| **Billplz** | 🚧 Coming Soon |  |
-| **Midtrans** | 🚧 Coming Soon |  |
+| **SenangPay** |  Ready | Malaysia |
+| **iPay88** |  Coming Soon |  |
+| **PayPal** |  Coming Soon |  |
+| **Billplz** |  Coming Soon |  |
+| **Midtrans** |  Coming Soon |  |
 
 ## Features
 
-✅ **Unified API** - Same interface for all payment gateways  
-✅ **Exception-Based** - Clean error handling with specific exceptions  
-✅ **Multi-Account** - Support multiple merchant accounts per gateway  
-✅ **Type Safety** - Full PHP type hints and return types  
-✅ **Laravel Integration** - Service provider, facades, and config publishing  
-✅ **Sandbox Mode** - Easy testing with sandbox environments  
-✅ **Logging** - Built-in logging for debugging and monitoring  
-✅ **Extensible** - Easy to add new payment gateways  
+ **Unified API** - Same interface for all payment gateways  
+ **Exception-Based** - Clean error handling with specific exceptions  
+ **Multi-Account** - Support multiple merchant accounts per gateway  
+ **Type Safety** - Full PHP type hints and return types  
+ **Laravel Integration** - Service provider, facades, and config publishing  
+ **Sandbox Mode** - Easy testing with sandbox environments  
+ **Logging** - Built-in logging for debugging and monitoring  
+ **Extensible** - Easy to add new payment gateways  
 
 ## Requirements
 
@@ -460,10 +460,10 @@ This package is open-source software licensed under the [MIT license](LICENSE).
 
 ## Support
 
-- 📧 Email: permana.azhar.aldi@gmail.com
-- 🐛 Issues: [GitHub Issues](https://github.com/aldi/laravel-payment-gateways/issues)
-- 📖 Documentation: [GitHub Wiki](https://github.com/aldi/laravel-payment-gateways/wiki)
+-  Email: permana.azhar.aldi@gmail.com
+-  Issues: [GitHub Issues](https://github.com/aldi/laravel-payment-gateways/issues)
+-  Documentation: [GitHub Wiki](https://github.com/aldi/laravel-payment-gateways/wiki)
 
 ---
 
-Made with ❤️ by Aldi
+Aldi
